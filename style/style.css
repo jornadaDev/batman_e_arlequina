@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.desconto {
+  background-color: #1CD1B0;
+  height: 25px;
+  /* border: 3px solid red; */
+ 
+}
+
+.desconto p {
+  margin-left: 10px;
+  
+}
+
+.titulo {
+  
+  font-weight: bold;
+  background-color: #00669F;
+  padding: 15px;
+
+}
+
+.titulo h1 {
+  margin-left: 28px;
+}
+
+.text{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* padding-top: 50px; */
+  margin-top:10px ;
+}
+
+.nome {
+  text-align: center;
+  padding-top: 23px;
+  margin-top: 50px;
+}
+
+button {
+  margin-left: 135px;
+  margin-top: 23px;
+  width: 100px;
+  height: 55px;
+  background-color: #00669F;
+  color: #F3F3F3;
+  border: none;
+  
+}
+
+.container {
+margin: auto auto;
+margin-top: 45px;
+/* border: 3px solid red; */
+
+width: 1000px;
+
+
+}
+
+
+.background-batman {
+  height: 250px;
+  background-image: url(../assets/backgroundbat.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  /* border: 3px solid red; */
+}
+
+.background-arlequina {
+  height: 250px;
+  background-image: url(../assets/backgroundarle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+.card {
+  width: 370px;
+  height: 550px;
+  /* border: 3px solid blue; */
+  display: inline-block;
+  background-color: #F3F3F3;;
+  position: relative;
+}
+
+.card-batman {
+  margin-left: 95px;
+  position: relative;
+  
+}
+.card-arlequina {
+  margin-left: 95px;
+}
+
+.foto {
+  
+    position: absolute;
+    top: 33%;
+    left: 30%;
+}
+
+.foto-arlequina img {
+  border-radius: 50%;
+}
+
+footer{
+  background-color: #00669F;
+  margin-top: 160px;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer p {
+  margin-left: 45px;
+
+}
